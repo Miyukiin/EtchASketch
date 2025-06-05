@@ -3,5 +3,27 @@
 }
 
 div.grid-container{
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+div.grid-element{
+    display: flex;
+    border: 1px solid black;
+    flex: 1 1 auto;
+  
+}
+
+div.row-container{
     display:flex;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+h1.title{
+    text-align: center;
 }
