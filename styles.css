@@ -7,7 +7,7 @@ div.grid-container{
     margin: auto;
     border: 1px solid black;
     flex-wrap: wrap;
-    width: 600px;
+    width: 960px;
     height: 600px;
 }
 
@@ -28,6 +28,13 @@ div.row-container{
     width: 100%;
 }
 
-h1.title{
+h1.title{   
     text-align: center;
+}
+
+div.button-input-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    column-gap: 5px;
 }
