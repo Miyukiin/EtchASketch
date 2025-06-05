@@ -18,6 +18,10 @@ div.grid-element{
   
 }
 
+div.grid-element-hover{
+    background-color: gray;
+}
+
 div.row-container{
     display:flex;
     flex: 1 1 auto;

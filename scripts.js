@@ -10,7 +10,9 @@ function createGrid(){
         for(let i=0; i<16;i++){
             let gridElement = document.createElement("div");
             gridElement.classList = "grid-element";
-            console.log(gridElement);
+            gridElement.addEventListener("mouseover", (e) => {
+                gridElement.classList.add("grid-element-hover");
+            })
             rowOfElements.appendChild(gridElement);
         }
         gridContainer.appendChild(rowOfElements);
